@@ -1,5 +1,6 @@
 pipeline { 
-    agent any
+    agent {label 'Agent-1'
+          }
     
     tools {
         maven 'maven3.6'
